@@ -42,9 +42,12 @@
           family, and co-workers.</p>
         <form action="#" class="form-top">
           <div class="form-item">
-          <input class="form-input" type="text" placeholder="Enter your email..." aria-label="Enter your email..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="please enter valid email.">
-          <button class="form-button" type="submit">Get Started</button>
-          <span></span>
+          <input id="form-input" 
+          type="email" name="email" 
+          placeholder="Enter your email..." 
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="please enter valid email." >
+          <button class="form-button" type="submit">Get Started</button> 
         </div>
         </form>
       </div>
@@ -90,7 +93,12 @@
       <div>
         <form action="#" class="form-bot">
           <div class="form-item">
-          <input class="form-input" type="text" placeholder="email@example.com" aria-label="email@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="please enter valid email.">
+          <input id="form-input" 
+          type="email" 
+          name="email"
+          placeholder="email@example.com" 
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          title="please enter valid email.">
           <button class="form-button" type="submit">Get started for free</button>
         </div>
         </form>
@@ -105,7 +113,7 @@
       <nav class="nav-bar-bottom">
         <ul>
           <li class="icon"><a href="tel:+1-543-123-4567">Phone: +1-543-123-4567</a></li>
-          <li class="icon"><a href="example@fylo.com" target="_blank">example@fylo.com</a></li>
+          <li class="icon"><a href="mailto:example@fylo.com" target="_blank">example@fylo.com</a></li>
         </ul>
         <ul>
           <li><a href="#">About Us</a></li>
